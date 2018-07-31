@@ -1,0 +1,30 @@
+td {
+	background-color: #58A2F5;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+}
+.colorpink {
+	background-color: #F581F5;
+}
+
+.colorgrey {
+	background-color: #8B8C91;
+}
+
+.result {
+
+	display: none;
+}
+
+td:hover .result {
+	display: block;
+}
+
+td:hover .multi {
+	display: none;
+}
+
+td:hover {
+	background-color: red;
+}
